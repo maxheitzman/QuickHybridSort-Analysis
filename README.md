@@ -1,22 +1,28 @@
 # QuickHybridSort Analysis
 
-This project analyzes the performance crossover point between QuickSort and InsertionSort.  
-Written in Python as part of a CS algorithms course project at Texas Tech University.
+This project analyzes a hybrid sorting algorithm that switches between QuickSort and Insertion Sort based on a threshold `k`.
 
-## Features
+## 🧠 Overview
+- Written in Python
+- Evaluates performance crossover point for hybrid sorting
+- Visualizes runtime comparisons across different input sizes
 
-- Implements a hybrid sort (QuickSort + InsertionSort)
-- Tests various threshold values for switching algorithms
-- Measures and plots runtime crossover behavior
-- Includes both sorted and randomized input testing
+## 📁 Files
+- `qhs.py`: main program that runs the hybrid sort analysis
+- Any other plots or data files go here...
 
-## Files
+## 📊 Output
+Generates timing graphs that show when hybrid sort outperforms pure QuickSort or Insertion Sort.
 
-- `qhs.py`: Main script with hybrid sort implementation and timing logic
-- Plots saved as images or displayed via `matplotlib`
+## 📌 Concepts Used
+- QuickSort
+- Insertion Sort
+- Hybrid algorithm design
+- Empirical runtime analysis
+- Matplotlib plotting
 
-## Author
+## 🔧 How to Run
 
-Max Heitzman  
-Computer Science, Texas Tech University  
-GitHub: [maxheitzman](https://github.com/maxheitzman)
+```bash
+python qhs.py
+
