@@ -1,5 +1,5 @@
 """
-Hayden McKinney & Max Heitzman
+Max Heitzman
 CS 3364 - Dr. Chinta
 4/30/2025
 
